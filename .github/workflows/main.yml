@@ -26,4 +26,4 @@ jobs:
           source ~/.bashrc
           conda activate mlflow_env
           mlflow run MLProject
-          shell: bash -l {0}
+          
