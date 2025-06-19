@@ -24,6 +24,7 @@ jobs:
       - name: Activate environment and run MLflow
         run: |
           conda init bash
+          source ~/.bashrc
           conda activate mlflow_env
           mlflow run MLProject
           
