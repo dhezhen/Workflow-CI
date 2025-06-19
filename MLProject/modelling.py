@@ -8,7 +8,7 @@ import mlflow
 mlflow.sklearn.autolog()
 
 # Muat data (ganti sesuai hasil preprocessing)
-df = pd.read_csv("../preprocessing/student_habit_performance_preprocessing.csv")
+df = pd.read_csv("student_habit_performance_preprocessing.csv")
 # Misal: kolom target 'Status'
 X = df.drop(columns=['exam_score'])
 y = df['exam_score']  # Ganti dengan nama kolom target yang sesuai
